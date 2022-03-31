@@ -1,2 +1,2 @@
-# Cookie-Monster-Website
-A test-bed website to develop more skills.
+# A Portfolio Website to showcase projects.
+Will be updated.
