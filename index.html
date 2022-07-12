@@ -12,28 +12,66 @@
 </header>
 <body>
     <div class="header">
-        <img class="logo" src="./resources/images/logo.jpg">
+        <a href="#toppage"><img class="logo" src="./resources/images/logo.jpg"></a>
         <div class="nav">
             <ul>
-                <li><a href="./about.html"> About Me</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="./contact.html">Contact Me!</a></li>
+                <li><a href="#aboutme"> About Me</a></li>
+                <li><a href="#myprojects">Projects</a></li>
+                <li><a href="#contactme">Contact Me!</a></li>
          </ul>
         </div>
     </div>
-    <div class="banner">
-        <h1 class="'title">Hello! I'm Richard Elphinstone</h1>
-        <h2>I am a Software Developer in the Pittsburgh Area.</h2>
-        <h3>Lets Create something great together!</h3>
+    <div class="banner" id="toppage">
+        <h1 class="'title">Welcome</h1>
+        <h2>My name is Rick and I am Software Developer in the Pittsburgh Area.</h2>
+        <div class = "contact">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/richard-elphinstone">Linkedin</a></li>
+                <li><a href="https://github.com/elphinstonerf">Github</a></li>
+                <li>FaceBook</li>
+            </ul>
+        </div>
     </div>
-    <div>
-        <h2>Current skills are:</h2>
+    <div class = "languages">
+        <h2>Languages I work with</h2>
         <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SQL</li>
+            <li><img class="icon" src="./resources/images//Icons/c-.png"></li>
+            <li><img class="icon" src="./resources/images/Icons/python.png"></li>
+            <li><img class="icon" src="./resources/images/Icons/java.png"></li>
+            <li><img class="icon" src="./resources/images//Icons/java-script.png"></li>
+            <li><img class="icon" src="./resources/images/Icons/html-5.png"></li>
+            <li><img class="icon" src="./resources/images/Icons/css-3.png"></li>
+        </ul>
+    </div>
+    <div class = "about" id = "aboutme">
+        <h2>About Me</h2>
+        <p>
+            From a young age I have always loved working with technology and experience science fiction become reality. 
+            Now I am stiving to dive deeper into this passion and wish to help develop future technologies. Graduating from 
+            Southern New Hampshire University Fall of 2022, I am using the skills I have learned in conjunction with the experience
+            I have acquired through various exciting careers to push myself further. Having worked with a variety of different types
+            of teams through military and civilian employement, I look forward to collaborating with others and creating new and 
+            exciting projects.
+        </p>
+    </div>
+    <div class = "projects" id = "myprojects">
+        <h2>Some of my Projects</h2>
+        <ul>
+            <li><h3>Spooky Street</h3>
+                <img class = "pic" src="./resources/images/SpookyStreetTitle.jpg" height = "300" width = "300">
+                <p>A Python based Text Adventure game where you Trick or Treat on Spooky Street for candy. But Beware of the Ghost!</p></li>
+            <li><h3>Left Right Center: A Dice Game</h3>
+            <p>A C++ game that will set up Players to simulate the game. Practice of Object-Oriented Programming</p></li>
+            <li><h3>Random</h3>
+            <p>Possibly adding more Java Applications</p></li>
+        </ul>
+    </div>
+    <div class = "bottom" id = "contactme">
+        <h2>Contact Me:</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/richard-elphinstone">Linkedin</a></li>
+            <li><a href="https://github.com/elphinstonerf">Github</a></li>
+            <li>FaceBook</li>
         </ul>
     </div>
 </body>
