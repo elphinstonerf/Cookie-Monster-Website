@@ -10,6 +10,7 @@ body {
     flex-direction:column;
 }
 
+/*Top of page elements*/
 .header {
     position:fixed;
     top:0px;
@@ -21,18 +22,23 @@ body {
     align-items: center;
     background-color: black;
 }
-
-li {
+.header li {
     margin-right: 15px;
     text-decoration:none;
     display:inline-block;
 }
-
+@media screen and (max-width: 600px) {  /*Reactive for small screens*/
+    .header .button{
+        font-size: 12px;
+        padding: 10px 24px;
+    }
+}
 .logo {
     height: 50px;
     margin-left: 10px;
 }
 
+/*Main Page elements*/
 .banner {
     
     background-image: url('../images/silohette.jpg');
@@ -49,19 +55,24 @@ li {
     padding: 100px 0;
 }
 
-.title {
-    background-color: red;
-}
-
-
 .languages h2 {
     text-align: center;
-
 }
 
 .icon {
     width:100px;
     height:100px;
+}
+@media screen and (max-width: 600px) {  /*Reactive for small screens*/
+    .icon {
+        width:60px;
+        height:60px;
+    }
+}
+
+li { 
+    text-decoration:none;
+    display:inline-block;
 }
 
 .about {
@@ -69,19 +80,6 @@ li {
     flex-direction: column;
     align-items: center;
 }
-
-.button {
-    background-color: #123167;
-    transition-duration: 0.4s;
-    border-radius: 10px;
-  }
-  
-.button:hover {
-    background-color: #123167;
-    color: white;
-    border-radius: 30px;
-  }
-
 .projects {
     display: flex;
     flex-direction: column;
@@ -89,21 +87,12 @@ li {
 
 }
 
-.pic {
-    border-radius: 30px;
-    box-shadow: 2px 2px 4px #000000;;
-    
-}
-
-.bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+/*Buttons*/
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #1c3133; 
     border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #000000;
     color: white;
     padding: 16px 32px;
     text-align: center;
@@ -117,5 +106,36 @@ li {
   .button:hover {
     background-color: #555555;
     color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px #000000;
   }
+.button:action {
+    box-shadow: 1px 1px 2px #000000;
+}
+
+
+
+
+/*Pictures*/
+.pic {
+    border-radius: 30px;
+    box-shadow: 4px 4px 8px #000000;;
+}
+.pic:hover {
+    border-radius: 30px;
+    box-shadow:2px 2px 4px #000000;
+}
+.pic:active {
+    box-shadow:1px 1px 2px #000000;
+}
+
+
+/*Bottom of page elements*/
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
   
