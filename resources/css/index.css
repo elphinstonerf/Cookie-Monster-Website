@@ -27,12 +27,6 @@ body {
     text-decoration:none;
     display:inline-block;
 }
-@media screen and (max-width: 600px) {  /*Reactive for small screens*/
-    .header .button{
-        font-size: 12px;
-        padding: 10px 24px;
-    }
-}
 .logo {
     height: 50px;
     margin-left: 10px;
@@ -63,12 +57,7 @@ body {
     width:100px;
     height:100px;
 }
-@media screen and (max-width: 600px) {  /*Reactive for small screens*/
-    .icon {
-        width:60px;
-        height:60px;
-    }
-}
+
 
 li { 
     text-decoration:none;
@@ -138,4 +127,34 @@ li {
 }
 
 
-  
+/*Life Experiences Page*/
+.experience{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%
+}
+.exbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*Responsive for small screens*/
+@media screen and (max-width: 600px) {  
+    .header .button{
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+    .icon {
+        width:60px;
+        height:60px;
+    }
+    .pic {
+        width:30%;
+        height:30%;
+        border-radius: 10px;
+    }
+}
