@@ -130,17 +130,15 @@ li {
 /*Life Experiences Page*/
 .experience{
     display: flex;
-    flex-direction: row;
-    flex:0 1 calc(50% - 10px);
-    margin: 5px;
+    flex-direction: column;
 }
-.txtbox:nth-child(1){
+.txtbox {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
-.picbox:nth-child(2){
+.picbox {
     display: flex;
     flex-direction: row;
     align-items: center;
