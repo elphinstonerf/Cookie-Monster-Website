@@ -48,7 +48,9 @@ body {
     text-align: center;
     padding: 100px 0;
 }
-
+.languages {
+    justify-content: center;
+}
 .languages h2 {
     text-align: center;
 }
