@@ -48,16 +48,17 @@ body {
     text-align: center;
     padding: 100px 0;
 }
-.languages {
-    justify-content: center;
-}
 .languages h2 {
+    text-align: center;
+}
+.languages ul {
     text-align: center;
 }
 
 .icon {
     width:100px;
     height:100px;
+    padding-right: 20px;
 }
 
 
@@ -70,11 +71,13 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
 }
 .projects {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right:  10px;
 
 }
 
@@ -156,10 +159,15 @@ li {
     .icon {
         width:60px;
         height:60px;
+        padding-right: 20px;
     }
     .pic {
         width:30%;
         height:30%;
         border-radius: 10px;
+    }
+    .button {
+        font-size: 10px;
+        padding: 5px 15px;
     }
 }
