@@ -1,12 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(247, 247, 247);
+    color: rgb(3, 3, 3);
+    background-color: rgb(45, 49, 57);
+    background-image: url('../images/background/R\ \(1\).jpg');
     opacity: 0.9em;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction:column;
 }
 
@@ -32,21 +32,55 @@ body {
     margin-left: 10px;
 }
 
+
 /*Main Page elements*/
 .banner {
-    
-    background-image: url('../images/silohette.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../images/background/night\ \(1\).jpg');
     background-size: 1500px;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    height: 600px;
     width: 100%;
     color: white;
     margin-top: 50px;
-    text-align: center;
     padding: 100px 0;
+}
+.meStuff {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 20px;
+    
+}
+.metext {
+
+    text-align: left;
+    margin-left: 100px;
+    padding: 20px;
+}
+.mePic {
+    align-self: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.myPic{
+    border-style:solid;
+    border-width: 4px;
+    border-radius: 100px;
+}
+
+
+.bannerButtons {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    padding-right: 50px;
 }
 .languages h2 {
     text-align: center;
@@ -130,6 +164,12 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding-right: 50px;
+}
+.bottom h2 {
+    text-align: center;
+    padding-left: 50px;
 }
 
 
@@ -151,6 +191,7 @@ li {
     justify-content: space-evenly;
 }
 
+
 /*Responsive for small screens*/
 @media screen and (max-width: 600px) {  
     .header .button{
@@ -162,6 +203,9 @@ li {
         height:60px;
         padding-right: 20px;
     }
+    .meStuff {
+        flex-direction: column;
+    }
     .pic {
         width:30%;
         height:30%;
@@ -171,4 +215,18 @@ li {
         font-size: 10px;
         padding: 5px 15px;
     }
+    .banner .button {
+        font-size: 16px;
+        padding: 16px 32px;;
+    }
+    .bottom .button {
+        font-size: 16px;
+        padding: 10px 15px;;
+    }
 }
+
+
+
+
+
+
