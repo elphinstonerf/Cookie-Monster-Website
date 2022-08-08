@@ -194,12 +194,8 @@ li {
 .pic {
     margin: 5px;
 }
-.banner p {
-    padding: 20px;
-}
-.banner h2 {
-    text-align: center;
-    padding: 20px;
+.meText {
+    padding-left: 20px;
 }
 
 
