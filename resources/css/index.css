@@ -39,7 +39,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background-image: url('../images/background/night\ \(1\).jpg');
-    background-size: 1500px;
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
